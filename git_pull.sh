@@ -32,7 +32,7 @@ WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
 Scripts2URL=https://github.com/shylocks/Loon
 
 ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-ShellURL=https://github.com/jym2017/jd-base
+ShellURL=https://github.com/ttklym/jd-base
 
 ## 更新shell脚本
 function Git_PullShell {
