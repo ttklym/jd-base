@@ -109,7 +109,7 @@ function Combin_All {
   export JDSXSY_SHARECODES=$(Combin_Sub ForOtherImmortal)
   export JDSGMH_SHARECODES=$(Combin_Sub ForOtherSgmh)
   export JSMOBILEFESTIVAL_SHARECODES=$(Combin_Sub ForOtherJdMobileFestival)
-  export JDNY_SHARECODES=$(Combin_Sub ForOtherjdNewYear "p8NuAaMW6doJVI1se_w8_3kshAkGIcmZNao14QbeiHs@oMZeX-4a9tgEVeRjMbclq5CWUf2j7Zb90Di8F1dWGdzvtjmp@oMZeXLAd8o1VUepkM-Ml_j7MwPbn4VEe0oQZe-n5XFLlwlw4@oMZeX-AapIxVB7Q3YeN1_ALyz3U_jUpC1iZSF9FcqZJJDVnh")
+  export JDNY_SHARECODES=$(Combin_Sub ForOtherjdNewYear "p8NuAaMW6doJVI1se_w8_3kshAkGIcmZNao14QbeiHs@oMZeX-4a9tgEVeRjMbclq5CWUf2j7Zb90Di8F1dWGdzvtjmp@oMZeXLAd8o1VUepkM-Ml_j7MwPbn4VEe0oQZe-n5XFLlwlw4@oMZeX-AapIxVB7Q3YeN1_ALyz3U_jUpC1iZSF9FcqZJJDVnh@LTu8jUvZpYpeBOt9e_xws0aUc0mG_FxI__KmU-7uHQ")
 }
 
 ## 转换JD_BEAN_SIGN_STOP_NOTIFY或JD_BEAN_SIGN_NOTIFY_SIMPLE
