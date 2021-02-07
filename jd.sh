@@ -104,9 +104,7 @@ function Combin_All {
   export JXNCTOKENS=$(Combin_Sub TokenJxnc)
   export BOOKSHOP_SHARECODES=$(Combin_Sub ForOtherBookShop)
   export JD_CASH_SHARECODES=$(Combin_Sub ForOtherCash)
-  export JDSXSY_SHARECODES=$(Combin_Sub ForOtherImmortal)
   export JDSGMH_SHARECODES=$(Combin_Sub ForOtherSgmh)
-  export JSMOBILEFESTIVAL_SHARECODES=$(Combin_Sub ForOtherJdMobileFestival)
   export JDNY_SHARECODES=$(Combin_Sub ForOtherjdNewYear "p8NuAaMW6doJVI1se_w8_3kshAkGIcmaMaw_5Q7Qj3I")
 }
 
