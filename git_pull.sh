@@ -29,8 +29,12 @@ SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
 
-ScriptsURL=https://gitee.com/lxk0301/jd_scripts
+ScriptsURL=https://github.com/ttklym/jd_scripts
 ShellURL=https://github.com/ttklym/jd-base
+
+cd ${ScriptsDir}
+git remote remove origin
+git remote add origin ${ScriptsURL}
 
 ## 更新shell脚本
 function Git_PullShell {
