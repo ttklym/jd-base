@@ -29,9 +29,12 @@ SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
 
-ScriptsURL=https://github.com/ttklym/jd_scripts
-ShellURL=https://github.com/ttklym/jd-base
+ScriptsURL=https://gitee.com/ttklym/jd_scripts
+ShellURL=https://gitee.com/ttklym/jd-base
 
+cd ${ShellDir}
+git remote remove origin
+git remote add origin ${ShellURL}
 cd ${ScriptsDir}
 git remote remove origin
 git remote add origin ${ScriptsURL}
