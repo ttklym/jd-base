@@ -1,6 +1,6 @@
-## Version: v3.27.0
-## Date: 2021-02-07
-## Update Content: 删除手机年终奖和神仙书院活动助力码填写区域。
+## Version: v3.28.0
+## Date: 2021-03-01
+## Update Content: 增加京喜财富岛互助码填写区域。
 
 ## 上面版本号中，如果第2位数字有变化，那么代表增加了新的参数，如果只有第3位数字有变化，仅代表更新了注释，没有增加新的参数，可更新可不更新
 ## 如需更新，请参考WIKI（https://github.com/EvineDeng/jd-base/wiki）中"如何更新配置文件"部分的操作说明，进行智能比对后修改。
@@ -126,6 +126,23 @@ NotifyBeanSign=""
 ## 默认每个签到接口并发无延迟，如需要依次进行每个接口，请自定义延迟时间，单位为毫秒，延迟作用于每个签到接口, 如填入延迟则切换顺序签到(耗时较长)
 export JD_BEAN_STOP=""
 
+################################## 京喜财富岛互助码（选填） ##################################
+## 具体填法及要求详见：https://github.com/EvineDeng/jd-base/wiki/FAQ
+MyCfd1=""
+MyCfd2=""
+MyCfd3=""
+MyCfd4=""
+MyCfd5=""
+MyCfd6=""
+MyCfdA=""
+MyCfdB=""
+
+ForMyCfd1=""
+ForMyCfd2=""
+ForMyCfd3=""
+ForMyCfd4=""
+ForMyCfd5=""
+ForMyCfd6=""
 
 ################################## 定义东东农场互助（选填） ##################################
 ## 具体填法及要求详见：https://github.com/EvineDeng/jd-base/wiki/FAQ
