@@ -103,7 +103,7 @@ function Combin_All {
   export JXNC_SHARECODES=$(Combin_Sub ForOtherJxnc)
   export JXNCTOKENS=$(Combin_Sub TokenJxnc)
   export BOOKSHOP_SHARECODES=$(Combin_Sub ForOtherBookShop)
-  export JD_CASH_SHARECODES=$(Combin_Sub ForOtherCash "eU9Ya7rnNPoko2aAzyBG1w@eU9YaOrgYvsk9TjTnSAW1Q@fkpoNqnsL614pgGI")
+  export JD_CASH_SHARECODES=$(Combin_Sub ForOtherCash "fkpoNqnsL614pgGI@eU9Ya7rnNPoko2aAzyBG1w@eU9YaOrgYvsk9TjTnSAW1Q")
   export JDSGMH_SHARECODES=$(Combin_Sub ForOtherSgmh)
   export JDNY_SHARECODES=$(Combin_Sub ForOtherjdNewYear "p8NuAaMW6doJVI1se_w8_3kshAkGIcmaMaw_5Q7Qj3I")
   export JDCFD_SHARECODES=$(Combin_Sub ForMyCfd "DCDD26C84FDEC51FB06C083B1982245712EDCADA8436D63EC7C8CEC8FD52737E")
